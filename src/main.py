@@ -6,8 +6,8 @@ from pydantic import BaseModel
 # Load the trained model
 model = joblib.load("model.pkl")
 
-# Initialize FastAPI app with __name__
-app = FastAPI(__name__)
+# Initialising FastAPI
+app = FastAPI()
 
 # Define input data schema
 class InputData(BaseModel):
