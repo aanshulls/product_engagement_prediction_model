@@ -69,7 +69,7 @@ The XGBoost Classifier was selected as the final model due to its higher accurac
 - subsample: 0.8217
 - colsample_bytree: 0.6069
 
-Model Performance
+# Model Performance
 The final model achieved the following performance metrics on the test set:
 
 - Accuracy: 85.61%
