@@ -1,8 +1,15 @@
 ## Product Engagement Prediction Model
 This classification project aims to predict customer subscription engagement with a new banking product using machine-learning techniques.
 
-## Overview
-This machine-learning project aims to predict whether customers will subscribe to a term deposit based on their demographics and banking behavior. The model uses a dataset based on a bank's marketing campaign and utilises Random Forest Classifier and XGBoost Classifier to make predictions.
+## Problem Statement and Project Overview
+Within the competitive banking sector it is essential to understand customer engagement with new product is essential to optimise marketing strategies. However, predicting customer engagement is difficult due to  varied demographical, behavioural, and financial data.
+
+This project aims to develop a machine-learning model to predict customer engagement with a new term loan introduced by a bank using customer historical data. By accurately classifying customers into engaged and non-engaged categories the model will help:
+- Optimise marketing strategies to improve efficiency.
+- Enhance sales strategies to focus on high-probably customers
+- Improve customer experience by offering targeted innovative products to the correct demographic
+
+The model is trained using customer data and leverages algorithms such as Random Forest Classifier and XGBoost Classifier for predictive accuracy, with the project goal to provide data-driven insights driving higher engagement rates for improved business outcomes.
 
 ## Dataset
 The dataset used in this project is bank.csv, which contains information about customers and their responses to a marketing campaign. The dataset includes the following features:
@@ -89,7 +96,7 @@ Model Improvements:
 - Utilising different models such as LightGBM.
 
 Deployment:
-- Converting model into a FastAPI web app
+- Converting the model into a FastAPI web app
 - Deploying onto AWS
 
 ## Contributing
