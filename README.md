@@ -1,8 +1,8 @@
 # product_engagement_prediction_model
-Based on bank marketing data, this repository contains a Classification Machine Learning model designed to predict customer subscription engagement with a term deposit product. The model uses Exploratory Data Analysis (EDA), Feature Engineering, and advanced Machine Learning techniques to predict whether customers will subscribe to a new product, such as a term deposit.
+This classification model predicts customer subscription engagement with a new banking product.
 
 # Overview
-This project aims to predict whether customers will subscribe to a term deposit based on their demographics and banking behavior. The model uses a dataset from a bank's marketing campaign and Machine Learning techniques such as Random Forest and XGBoost to make predictions. The final model is optimised using Bayesian Optimization for hyperparameter tuning.
+This machine-learning project aims to predict whether customers will subscribe to a term deposit based on their demographics and banking behavior. The model uses a dataset based on a bank's marketing campaign and utilises Random Forest Classifier and XGBoost Classifier to make predictions.
 
 # Dataset
 The dataset used in this project is bank.csv, which contains information about customers and their responses to a marketing campaign. The dataset includes the following features:
@@ -59,10 +59,9 @@ Two models were evaluated:
 
 # Hyperparameter tuning 
 - Grid Search: Used to find the best hyperparameters for both models.
-- Bayesian Optimization: Applied to further optimise the XGBoost model.
 
 # Final Model
-The XGBoost Classifier was selected as the final model due to its higher accuracy. The optimal hyperparameters were:
+The XGBoost Classifier was selected as the final model due to its higher accuracy score. The optimal hyperparameters were:
 - learning_rate: 0.1165
 - n_estimators: 156
 - max_depth: 7
